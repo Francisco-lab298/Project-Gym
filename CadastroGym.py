@@ -1,8 +1,5 @@
-import string
-
-
 def registroGym():
-    nome = str(input("Digite seu nome: "))#teste
+    nome = str(input("Digite seu nome: "))
     QualSeuSexo = input("Qual o seu sexo? [masculino] [feminino]: ")
     if QualSeuSexo == "masculino":
         print("Homem")
@@ -31,7 +28,7 @@ def registroGym():
             print("Preencha somente (sim ou não)")
             QuerTomarSuplemento = input("Quer tomar suplemento [sim] [não]: ")
             if QuerTomarSuplemento == "sim":
-                print("Homem")
+                print("Suplementará")
                 break
             elif QuerTomarSuplemento == "não":
                 print("Somente treino")
