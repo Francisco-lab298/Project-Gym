@@ -1,5 +1,8 @@
+import string
+
+
 def registroGym():
-    nome = str(input("Digite seu nome: "))
+    nome = str(input("Digite seu nome: "))#teste
     QualSeuSexo = input("Qual o seu sexo? [masculino] [feminino]: ")
     if QualSeuSexo == "masculino":
         print("Homem")
@@ -35,7 +38,7 @@ def registroGym():
                 break
 
     altura = float(input("Sua Altura: "))#Float representa numero em casas decimais
-    print(f"{altura:}")
+    print("Sua altura é", "{:.2f}".format(altura))#.2f representa duas casas decimais
     peso = int(input("Qual o seu peso: "))
     email = str(input("Digite seu e-mail: "))
 registroGym()
