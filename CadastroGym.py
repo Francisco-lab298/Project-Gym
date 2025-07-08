@@ -41,4 +41,5 @@ def registroGym():
     print("Sua altura é", "{:.2f}".format(altura))#.2f representa duas casas decimais
     peso = int(input("Qual o seu peso: "))
     email = str(input("Digite seu e-mail: "))
+    telefone = int(input("Celular: "))
 registroGym()
