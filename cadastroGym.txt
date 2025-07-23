@@ -1,0 +1,27 @@
+Nome: Francisco
+Sexo: masculino
+Idade: 24
+Suplemento: sim
+Altura: 1.74 m
+Peso: 85 kg
+E-mail: hamurogamer@gmail.com
+Telefone: 12997173106
+-----------------------------
+Nome: Fleeb
+Sexo: masculino
+Idade: 30
+Suplemento: sim
+Altura: 1.80 m
+Peso: 80 kg
+E-mail: fleb.nauto@tantan.com
+Telefone: 231543564
+-----------------------------
+Nome: Matheus
+Sexo: masculino
+Idade: 40
+Suplemento: não
+Altura: 1.70 m
+Peso: 60 kg
+E-mail: theus666@hotmail.com
+Telefone: 237348234782
+-----------------------------

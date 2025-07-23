@@ -38,8 +38,26 @@ def registroGym():
                 break
 
     altura = float(input("Sua Altura: "))#Float representa numero em casas decimais
-    print("Sua altura é", "{:.2f}".format(altura))#.2f representa duas casas decimais
+    #print("Sua altura é", "{:.2f}".format(altura))#.2f representa duas casas decimais
     peso = int(input("Qual o seu peso: "))
     email = str(input("Digite seu e-mail: "))
     telefone = int(input("Celular: "))
+    
+      # Aqui juntando tudo em uma string formatada
+    dados = (
+        f"Nome: {nome}\n"
+        f"Sexo: {QualSeuSexo}\n"
+        f"Idade: {idade}\n"
+        f"Suplemento: {QuerTomarSuplemento}\n"
+        f"Altura: {altura:.2f} m\n"
+        f"Peso: {peso} kg\n"
+        f"E-mail: {email}\n"
+        f"Telefone: {telefone}\n"
+        "-----------------------------\n"
+    )
+        
+        # Escreve os dados no arquivo (adiciona no final sem apagar o anterior)
+    with open("cadastroGym.txt", "a", encoding="utf-8") as arquivo:
+            arquivo.write(dados)
+    print("Cadastro salvo com sucesso no arquivo 'cadastroGym.txt'.")
 registroGym()
